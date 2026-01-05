@@ -29,9 +29,9 @@ if opts.d then
 ┌───────────────────────────┐
 │Installer Set to Dev Branch│
 └───────────────────────────┘]])
-  BranchURL = "https://raw.githubusercontent.com/ShicKla/AuspexGateSystems/dev"
+  BranchURL = "https://raw.githubusercontent.com/azuremyer/AuspexGateSystems/dev"
 else
-  BranchURL = "https://raw.githubusercontent.com/ShicKla/AuspexGateSystems/release"
+  BranchURL = "https://raw.githubusercontent.com/azuremyer/AuspexGateSystems/release"
 end
 ReleaseVersionsFile = "/ags/releaseVersions.ff"
 ReleaseVersions = nil
@@ -131,5 +131,6 @@ print([[
 Installation complete!
 Please use the 'ags' system command to run the launcher.
 ]])
+
 
 
